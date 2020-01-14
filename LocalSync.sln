@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalSync", "LocalSync\LocalSync.csproj", "{A7E7D921-4C27-4925-A880-AE1FB9EC1AC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E7D921-4C27-4925-A880-AE1FB9EC1AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E7D921-4C27-4925-A880-AE1FB9EC1AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E7D921-4C27-4925-A880-AE1FB9EC1AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E7D921-4C27-4925-A880-AE1FB9EC1AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CD538D9-7E99-454F-9970-9E7F0799ACCB}
+	EndGlobalSection
+EndGlobal
