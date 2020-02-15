@@ -11,6 +11,19 @@
             <DataTemplate>
                 <Button Command="{Binding Compare}">
                     <TextBlock Text="{Binding Name}"/>
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="LightSlateGray"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DoFoldersMatch}" Value="True">
+                                    <Setter Property="Background" Value="#5BEA5B"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding DoFoldersMatch}" Value="False">
+                                    <Setter Property="Background" Value="#FF7373"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
                 </Button>
             </DataTemplate>
         </ItemsControl.ItemTemplate>

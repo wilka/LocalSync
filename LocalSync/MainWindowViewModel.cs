@@ -24,11 +24,7 @@ namespace LocalSync
                     throw new Exception("Each line in the settings file must be a pair of folders separated by `|`");
                 }
 
-                SyncFolders.Add(new SyncFolderPairViewModel
-                {
-                    Left = directoryInfoFactory.FromDirectoryName(parts[0].Trim()),
-                    Right = directoryInfoFactory.FromDirectoryName(parts[1].Trim()),
-                });
+                SyncFolders.Add(new SyncFolderPairViewModel(directoryInfoFactory.FromDirectoryName(parts[0].Trim()), directoryInfoFactory.FromDirectoryName(parts[1].Trim())));
             }
         }
 

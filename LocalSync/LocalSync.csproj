@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="ReactiveUI" Version="11.1.6" />
     <PackageReference Include="ReactiveUI.WPF" Version="11.1.6" />
+    <PackageReference Include="StreamCompare" Version="0.1.5" />
     <PackageReference Include="System.IO.Abstractions" Version="7.1.4" />
   </ItemGroup>
 
